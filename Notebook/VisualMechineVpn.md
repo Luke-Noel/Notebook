@@ -14,10 +14,11 @@
 
 ## 在Ubuntu进行设置
 1. 找到虚拟机设置（settings）中找到网络设置（Network）![在这里插入图片描述](https://img-blog.csdnimg.cn/20210202210035549.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl81Mjc3ODkzNA==,size_16,color_FFFFFF,t_70)
-2. 将Network Proxy中的设置从关闭（off）改为手动（Manual），并将信息填全，上数上述步骤没提到的以写入HTTP的内容![在这里插入图片描述](https://img-blog.csdnimg.cn/20210202211416320.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl81Mjc3ODkzNA==,size_16,color_FFFFFF,t_70)
-3. 在VMware中进行设置
-	在网络适配器中选择桥接模式
-	![在这里插入图片描述](https://img-blog.csdnimg.cn/20210202212836356.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl81Mjc3ODkzNA==,size_16,color_FFFFFF,t_70)
-**——————————————————————————**
-至此，恭喜，你可以进行愉快的网络冲浪了
-Congratulation！
+2. 将Network Proxy中的设置从关闭（off）改为手动（Manual），并将信息填全，上数上述步骤没提到的以写入HTTP的内容（指HTTPS和FTP以及socks的ip和前两项的端口）
+3. ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210202211416320.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl81Mjc3ODkzNA==,size_16,color_FFFFFF,t_70)
+4. 在VMware中进行设置
+  在网络适配器中选择桥接模式
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210202212836356.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl81Mjc3ODkzNA==,size_16,color_FFFFFF,t_70)
+  **——————————————————————————**
+  至此，恭喜，你可以进行愉快的网络冲浪了
+  Congratulation！
